@@ -12,7 +12,8 @@ public class Ola {
         System.out.println(p1.getNome());
 
         PessoaFisica p2 = new PessoaFisica();
-        p2.setNome("laís");
+        p2.setNome(": NOVO");
         p2.setIdade(20);
+        System.out.println(p2.getNome());
     }
 }
